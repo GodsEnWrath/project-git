@@ -80,3 +80,25 @@ contoh tabel 2 kolom:
 | sarah | Tangerang |
 | budi  | jakarta   |
 | owo   | bali      |
+
+contoh img
+
+internal
+![Grill](./1.jpg)
+
+external
+![koko](https://static.boredpanda.com/blog/wp-content/uploads/2019/09/wholesome-comics-by-cats-cafe-part-two-fb39-png__700.jpg)
+
+contoh garis horizontal
+
+---
+
+contoh cara menyisipkan html dan css di markdown:
+
+<div style="background-color:yellow; color: black;">
+<p>Aman</p>
+</div>
+
+contoh hyperlink
+
+[google](https://google.com)
