@@ -102,3 +102,10 @@ contoh cara menyisipkan html dan css di markdown:
 contoh hyperlink
 
 [google](https://google.com)
+
+contoh dropdown:
+
+<details>
+<summary> ANDA ADALAH.....</summary>
+Shit
+</details>
