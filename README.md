@@ -66,3 +66,17 @@ contoh list nama:
 2. dai
 3. sai
 4. fai
+
+contoh multiple choice:
+
+- [x] pilhan a
+- [ ] pilihan b
+- [ ] pilihan c
+
+contoh tabel 2 kolom:
+
+| Nama  | Alamat    |
+| ----- | --------- |
+| sarah | Tangerang |
+| budi  | jakarta   |
+| owo   | bali      |
