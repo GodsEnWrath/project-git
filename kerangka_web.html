@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Web</title>
+  </head>
+  <style>
+    .row {
+      display: flex;
+      justify-content: center;
+    }
+    .column {
+      float: left;
+      width: 25%;
+      padding: 10px;
+      text-align: center;
+
+      margin: 10px;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
+  <body>
+    <main style="text-align: center;">
+      <h1>Welcome To My Page</h1>
+      <div class="profile" style="background-color: rgb(218, 56, 56);">
+        <img src="./facebook-logo-button.png" alt="pepol" />
+      </div>
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil officia
+        maiores rerum non ipsam, modi minus at pariatur dolorum? Possimus,
+        nesciunt! Maiores iusto magni voluptates architecto laudantium
+        consectetur soluta, cum ex? Temporibus, voluptatum? Blanditiis
+        exercitationem non ducimus harum expedita veniam quod vel cumque
+        suscipit molestiae natus hic officia, quis culpa! Lorem ipsum dolor sit
+        amet consectetur adipisicing elit.
+        <br /><br />
+        Nihil officia maiores rerum non ipsam, modi minus at pariatur dolorum?
+        Possimus, nesciunt! Maiores iusto magni voluptates architecto laudantium
+        consectetur soluta, cum ex? Temporibus, voluptatum? Blanditiis
+        exercitationem non ducimus harum expedita veniam quod vel cumque
+        suscipit molestiae natus hic officia, quis culpa!
+      </p>
+      <hr />
+    </main>
+    <div class="row">
+      <div class="column" id="kolom1" style="background-color:#aaa;">
+        <img src="facebook-logo-button.png" alt="1" />
+        <h2>Column 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+          accusantium veritatis labore unde deserunt dolore ipsa est id rerum
+          cupiditate?
+        </p>
+      </div>
+      <div
+        class="column"
+        id="kolom2"
+        style="background-color:rgb(72, 187, 36);"
+      >
+        <img src="facebook-logo-button.png" alt="2" />
+        <h2>Column 2</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+          accusantium veritatis labore unde deserunt dolore ipsa est id rerum
+          cupiditate?.
+        </p>
+      </div>
+      <div
+        class="column"
+        id="kolom3"
+        style="background-color:rgba(47, 231, 176, 0.575);"
+      >
+        <img src="facebook-logo-button.png" alt="3" />
+        <h2>Column 3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+          accusantium veritatis labore unde deserunt dolore ipsa est id rerum
+          cupiditate?
+        </p>
+      </div>
+    </div>
+
+    <h3 style="text-align: center;">Contact me</h3>
+    <p style="text-align: center;">
+      For more info please contact at: fastyazid@gmail.com
+    </p>
+    <br />
+    <hr />
+
+    <footer style="text-align: center;">
+      <a href="https://facebook.com">
+        <img src="facebook-logo-button.png" alt="fb" width="50px"
+      /></a>
+      <a href="https://instagram.com">
+        <img src="instagram-logo.png" alt="ig" width="50px"
+      /></a>
+    </footer>
+  </body>
+</html>
